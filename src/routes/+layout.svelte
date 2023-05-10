@@ -11,7 +11,7 @@
   <div class="w-screen max-w-screen-xl flex flex-wrap items-center mx-auto p-5 justify-between md:justify-start">
     <!-- Logo -->
     <a class="mr-5" href="/">
-      <img src="logos/LogoBlack.webp" alt="">
+      <img src="logos/LogoBlack.webp" alt="Grouptag">
     </a>
 
     <!-- Hamburger Menu -->
@@ -45,12 +45,14 @@
 </nav>
 
 
-<slot />
+<main>
+  <slot />
+</main>
 
 <!-- Work on footer once some content is present -->
 <footer>
   <section>
-    <img src="" alt="">
+    <!-- <img src="logos/LogoWhite.webp" alt="Grouptag"> -->
     <div></div>
     <div></div>
   </section>
