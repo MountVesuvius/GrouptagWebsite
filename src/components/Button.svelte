@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { HTMLAttributes } from 'svelte';
-  export let label;
 
   interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
     variant?: 'primary' | 'secondary' | 'success' | 'warning' | 'danger'
@@ -36,6 +35,5 @@
 </script>
 
 <button class="{sizeClasses[size]} {variantClasses[variant]} {shapeClasses[shape]}">
-  <!-- {label} -->
   <slot />
 </button>
