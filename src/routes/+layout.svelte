@@ -24,15 +24,15 @@
     <div class="{active ? 'block' : 'hidden'} w-[65%] md:block md:flex md:items-center" id="navbar-default">
       <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-0 md:mt-0 md:border-0">
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-black hover:underline">Blog</a>
+          <a href="https://grouptag.substack.com/" class="block py-2 pl-3 pr-4 text-black hover:underline">Blog</a>
         </li>
 
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-black hover:underline">GIG Program</a>
+          <a href="/gig" class="block py-2 pl-3 pr-4 text-black hover:underline">GIG Program</a>
         </li>
 
         <li>
-          <a href="#" class="block py-2 pl-3 pr-4 text-black hover:underline">For Universities</a>
+          <a href="/for-universities" class="block py-2 pl-3 pr-4 text-black hover:underline">For Universities</a>
         </li>
         <!-- FIGURE OUT HOW TO GET THIS BUTTON TO DISPLAY CORRECTLY -->
         <div class="justify-self-end">
@@ -50,7 +50,7 @@
 </main>
 
 <!-- Work on footer once some content is present -->
-<footer>
+<footer class="bg-[#222121] h-10">
   <section>
     <!-- <img src="logos/LogoWhite.webp" alt="Grouptag"> -->
     <div></div>
@@ -66,9 +66,9 @@
   </section>
 </footer>
 
-
+<!-- 
 <style lang="postcss">
   :global(html) {
     background-color: theme(colors.gray.700);
   }
-</style>
+</style> -->
