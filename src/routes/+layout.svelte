@@ -34,6 +34,12 @@
         <li>
           <a href="/for-universities" class="block py-2 pl-3 pr-4 text-black hover:underline">For Universities</a>
         </li>
+        <li>
+          <a href="/clubs" class="block py-2 pl-3 pr-4 text-black hover:underline">Clubs</a>
+        </li>
+        <li>
+          <a href="/groups" class="block py-2 pl-3 pr-4 text-black hover:underline">Groups</a>
+        </li>
         <!-- FIGURE OUT HOW TO GET THIS BUTTON TO DISPLAY CORRECTLY -->
         <div class="justify-self-end">
           <!-- <span>HELLO</span> -->
@@ -45,8 +51,8 @@
 </nav>
 
 
-<main>
-  <slot />
+<main class="overflow-hidden">
+  <slot/>
 </main>
 
 <!-- Work on footer once some content is present -->

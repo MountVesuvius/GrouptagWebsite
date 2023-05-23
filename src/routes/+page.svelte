@@ -1,6 +1,6 @@
-<section class="flex flex-col sm:flex-row bg-[#0c2030] text-white h-[91vh] text-center p-10 sm:p-24 overflow-hidden sm:text-start sm:items-center">
+<section class="flex flex-col sm:flex-row bg-primary text-white h-[91vh] text-center p-10 sm:p-24 overflow-hidden sm:text-start sm:items-center">
 	<div class="sm:w-1/2 sm:pl-3">
-		<h1 class="text-3xl sm:text-[5rem] sm:leading-tight font-bold mb-2"><span class="text-[#46cdff]">Grouptag</span> is your campus network</h1>
+		<h1 class="text-3xl sm:text-[5rem] sm:leading-tight font-bold mb-2"><span class="text-grouptag">Grouptag</span> is your campus network</h1>
 		<h3 class="text-xl">The space for students to network, join communities and dive into the industries they're passionate about.</h3>
 		<div class="my-8 flex flex-col justify-center items-center sm:items-start">
 			<h6 class="mb-5 font-bold">Supported by</h6>
@@ -18,7 +18,7 @@
 		<h1 class="text-4xl sm:text-[5rem] sm:leading-tight font-bold mb-2">Turn your classes <br> into commmunities.</h1>
 		<h6 class="text-2xl">A centralised platform for universities to transform their higher education experience.</h6>
 		<br class="my-4">
-		<button class="bg-[#15291b] sm:text-xl text-white font-medium rounded-full px-5 sm:px-10 py-2 sm:py-4">
+		<button class="bg-accent-green text-white sm:text-xl font-medium rounded-full px-5 sm:px-10 py-2 sm:py-4">
 			Learn more
 		</button>
 	</div>
