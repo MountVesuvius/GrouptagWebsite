@@ -1,4 +1,4 @@
-<section class="bg-[#46cdff] h-[65vh] text-white flex flex-col items-center text-center p-12 sm:px-[30%] sm:justify-center">
+<section class="bg-grouptag h-[65vh] text-white flex flex-col items-center text-center p-12 sm:px-[30%] sm:justify-center sm:pt-20">
     <h1 class="text-3xl sm:text-[3rem] sm:leading-tight font-bold">
     Calling <span class="text-green-800">proactive</span> and <span class="text-blue-900">dedicated</span> students to join the Grouptag Internship Gateway Program.
     </h1>
@@ -14,7 +14,7 @@
     <img class="scale-[300%] sm:scale-100 ml-[10vw] sm:ml-0 mb-4 sm:mb-0" src="images/divider.png" alt="">
 </div>
 
-<section class="bg-white h-screen text-black p-2 flex flex-row">
+<section class="bg-white h-screen text-black p-2 flex flex-row overflow-hidden">
     <h1>Here are the features of GIG</h1>
     <!-- Left Side -->
     <div class="flex flex-col w-96 space-y-6">
