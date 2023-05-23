@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This is where our defaults as set */
+@layer base {
+    h1 {
+        @apply text-4xl font-black;
+    }
+    h2 {
+        @apply text-3xl font-semibold;
+    }
+}
