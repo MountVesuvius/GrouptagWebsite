@@ -35,7 +35,7 @@
           <a href="/for-universities" class="block py-2 pl-3 pr-4 text-black hover:underline">For Universities</a>
         </li>
         <li>
-          <a href="/clubs" class="block py-2 pl-3 pr-4 text-black hover:underline">Clubs</a>
+          <a href="/student-clubs" class="block py-2 pl-3 pr-4 text-black hover:underline">Clubs</a>
         </li>
         <li>
           <a href="/groups" class="block py-2 pl-3 pr-4 text-black hover:underline">Groups</a>
@@ -55,19 +55,34 @@
   <slot/>
 </main>
 
-<!-- Work on footer once some content is present -->
-<footer class="bg-[#222121] h-10">
-  <section>
-    <!-- <img src="logos/LogoWhite.webp" alt="Grouptag"> -->
-    <div></div>
-    <div></div>
+<footer class="bg-[#242323] h-10 sm:h-[50vh] text-white pt-10 overflow-hidden">
+  <section class="invisible sm:visible flex flex-row justify-center items-start space-x-48">
+    <img class="self-top" src="logos/LogoWhite.webp" alt="Grouptag">
+    <div class="space-y-5">
+      <strong>More Grouptag</strong>
+      <ul class="text-gray-400 space-y-5">
+        <li>Contact</li>
+        <li>Press</li>
+        <li>Internships</li>
+        <li>Clubs & Societies</li>
+      </ul>
+    </div>
+    <div class="space-y-5">
+      <strong>Legal</strong>
+      <ul class="space-y-5 text-gray-400">
+        <li>Terms of Service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
   </section>
-  <section>
-    <span></span>
-    <div>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+
+  <section class="flex flex-col justify-center items-center py-10 space-y-5">
+    <hr class="w-[80vw]">
+    <span>© 2023 Grouptag Pty Ltd. All Rights Reserved.</span>
+    <div class="flex space-x-2">
+      <img src="icons/Facebook.webp" alt="Facebook Icon">
+      <img src="icons/Twitter.webp" alt="Twitter Icon">
+      <img src="icons/Instagram.webp" alt="Instagram Icon">
     </div>
   </section>
 </footer>
