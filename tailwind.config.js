@@ -9,6 +9,7 @@ export default {
         'primary': '#0c2030',
         'eggshell': '#fafafa',
         'accent-green': '#15291b',
+        'light-green': '#1ab1ab',
         'accent-blue': '#00a0ff'
       },
       boxShadow: {
