@@ -1,9 +1,17 @@
-<section class="text-white ">
-    <div class="bg-eggshell flex justify-center items-center text-center px-10 py-16">
+<section class="text-white bg-eggshell">
+    <div class="bg-eggshell h-[65dvh] flex justify-center items-center text-center px-10 py-16">
         <h1 class="text-black font-black text-3xl sm:text-[4rem] sm:leading-tight sm:px-[20%]">Run, manage and grow your student club with <span class="text-grouptag">Grouptag Groups</span></h1>
     </div>
-    <!-- Rounded top buffer. need to still figure out how to style this -->
-    <div class="bg-accent-blue h-10 "></div>
+    <div style="
+    position: relative;
+      width: 120%;
+      height: 300px; /* Adjust the height as needed */
+      background-color: #00A0FF;
+      border-radius: 50% 50% 0 0; /* Adjust the border radius to modify the roundness */
+      margin-bottom: 0px; /* Adjust the negative margin to extend the shape */
+      left: -10%; /* Shift the div 10% to the left */
+      right: -10%; /* Shift the div 10% to the right */
+    "></div> 
 
     <div class="bg-accent-blue px-10 space-y-5 flex flex-col sm:flex-row sm:px-[10%]">
         <div class="sm:mr-10 sm:w-[50%] sm:pt-10">
